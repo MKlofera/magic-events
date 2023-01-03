@@ -19,7 +19,7 @@
     "process": "^0.11.10",
     "react-router-dom": "^6.6.1"
   },
-  "source": "/src/index.html",
+  "source": "index.html",
   "scripts": {
     "watch": "parcel watch index.html",
     "start": "parcel index.html",
