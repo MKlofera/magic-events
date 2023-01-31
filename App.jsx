@@ -19,17 +19,23 @@ import NotFound from './src/pages/NotFound';
 
 export default function App(){
   return (
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Index/>}/>
-
-
-        {/* <Route path='/pronajem-vybaveni' element={<EquipmentRent/>}/> */}
-        {/* <Route path='*' element={<NotFound/>}/> */}
-      </Routes>
-      <Footer/>
-    </Router>
+      <h1>funguje to?</h1>
+    // <Router>
+    //   <Navbar/>
+    //   <Routes>
+    //       <Route path='/' element={<h1>funguje to?</h1>}/>
+    //
+    //
+    //     {/* <Route path='/pronajem-vybaveni' element={<EquipmentRent/>}/> */}
+    //     {/* <Route path='*' element={<NotFound/>}/> */}
+    //   </Routes>
+    //   <Footer/>
+    // </Router>
   )
 }
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <App/>,
+    // </BrowserRouter>,
+    document.getElementById("root")
+);
