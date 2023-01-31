@@ -25,7 +25,7 @@ export default function App(){
         <Route path='/' element={<Index/>}/>
         <Route path='/koktejlovy-bar' element={<CoctailBar/>}/>
         {/* <Route path='/pronajem-vybaveni' element={<EquipmentRent/>}/> */}
-        <Route path='*' element={<NotFound/>}/>
+        {/* <Route path='*' element={<NotFound/>}/> */}
       </Routes>
       <Footer/>
     </Router>
