@@ -23,7 +23,8 @@ export default function App(){
       <Navbar/>
       <Routes>
         <Route path='/' element={<Index/>}/>
-        <Route path='/koktejlovy-bar' element={<CoctailBar/>}/>
+
+
         {/* <Route path='/pronajem-vybaveni' element={<EquipmentRent/>}/> */}
         {/* <Route path='*' element={<NotFound/>}/> */}
       </Routes>
