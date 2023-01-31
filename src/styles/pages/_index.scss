@@ -6,5 +6,45 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+  }
+}
+.homepage_textOnImageHolder{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.homepage_textOnImage{
+  position: relative; 
+  color: white;
+  text-align: justify;
+
+  h1{
+    font-size: 8vh;
+  }
+  h5{
+    display: block;
+
+    font-size: 4vh;
+  }
+}
+
+.link-to-sendEmail-modal{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.servicesOption{
+	overflow-x: auto;
+	white-space: nowrap;
 }
